@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    background-color: palevioletred;
+    color:black;
+}
+.container{
+    padding: 10px;
+   
+}
+.bc{
+    padding: 15px;
+    width:25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin:30px;
+   
+    
+}
+.bc h2{
+    color: palevioletred;
+}
+.bc button{
+    background-color:palevioletred;
+    color:black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.ab{
+    background-color: palevioletred;
+    color: black;
+    border-radius: 100%;
+    padding-top :20px;
+    padding-bottom :20px;
+    padding-right :30px;
+    padding-left :30px;
+    position: fixed;
+    right: 10px;
+    bottom:20px;
+    font-size: 40px;
+    border:none;
+}
+
+.pop{
+    
+    color:black ;
+    background-color: palevioletred;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+
+}
+
+.overlay{
+    background-color: black;
+    left: 0px;
+    top:0px;
+    position: absolute;
+    opacity: 0.8;
+    height: 100%;
+    width:100%;
+    z-index:1;
+    display: none;
+}
+.pop input{
+    background: transparent;
+    border:none;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.pop textarea{
+    background: transparent;
+    border:none;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.pop button{
+    color: white;
+    background-color: #000;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.pop input::placeholder{
+    color: #000;
+}
+.pop textarea::placeholder{
+    color: #000;
+}
+.pop input:focus{
+    outline: none;
+}
+.pop textarea:focus{
+    outline: none;
+}

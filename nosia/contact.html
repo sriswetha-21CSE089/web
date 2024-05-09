@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <!--  nav bar-->
+        <nav class="navbar">
+            <h1>Nostra</h1>
+            <div class="nav-links">
+                <p class="nav-link"><a href="index.html">Home</a></p>
+                <p class="nav-link"><a href="collections.html">Collections</a></p>
+                <p class="nav-link"><a href="contact.html">Contact us</a></p>
+            </div>
+    
+            <div class="nav-menu-toggle" onclick="show()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <!-- side nav bar-->
+        <div class="sidenav">
+            <p style="text-align: right" onclick="clos()"><i class="fa-solid fa-xmark"></i></p>
+            <div class="side-nav-links">
+                <p class="side-nav-link"><a href="index.html">Home</a></p>
+                <p class="side-nav-link"><a href="collections.html">Collections</a></p>
+                <p class="side-nav-link"><a href="contact.html">Contact us</a></p>
+            </div>
+        </div>
+       <div class="contact">
+        <div>
+            <h2 style="margin-bottom: 10px ;">Contact Us</h2>
+        </div>
+         <div>
+            <form class="form">
+                <label>Name:</label>
+                <input type="text">
+                <label>Email:</label>
+                <input type="email">
+                <label>Message:</label>
+                <textarea></textarea>
+                <button>submit</button>
+             </form>
+         </div>
+         
+       </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="footcon">
+                <div class="foot-1">
+                    <h4>Nostra</h4>
+                    <p>The Standard chunk of  Lorem ipsum dolor sit amet </p>
+                </div>
+                <div class="foot-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <p>@2023 Nostra.com</p>
+            </div>
+           
+            
+            
+        </div>
+        <script src="collection.js"></script>
+</body>

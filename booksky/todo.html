@@ -1,0 +1,18 @@
+<input id="task">
+<button onclick="add()">Add</button>
+<ul id="unordered">
+    <li>hello<button onclick="del(event)">delete</button>
+    </li>
+</ul>
+<script>
+    function add(){
+        var t=document.getElementById("task").value
+        var list=document.createElement("li")
+        list.innerHTML=t+"<button onclick='del(event)'>Delete</button>"
+        var un=document.getElementById("unordered")
+        un.append(list);      
+    }
+    function del(event){
+        event.target.parentElement.remove() 
+    }
+</script>
